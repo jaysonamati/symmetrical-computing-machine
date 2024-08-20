@@ -1,0 +1,47 @@
+.map-container {
+    height: 600px;
+}
+.sidebar {
+    background-color: rgba(35, 55, 75, 0.9);
+    color: #fff;
+    padding: 6px 12px;
+    font-family: monospace;
+    z-index: 1;
+    position: absolute;
+    top: 40;
+    left: 0;
+    margin: 12px;
+    border-radius: 4px;
+}
+.asset-list {
+    background-color: rgba(35, 55, 75, 0.9);
+    padding: 6px 12px;
+    font-family: monospace;
+    z-index: 1;
+    position: absolute;
+    top: 100;
+    left: 0;
+    margin: 12px;
+    border-radius: 4px;
+}
+
+
+:root {
+    --background: white;
+    --navbackground: rgba(162, 162, 168, 0.048);
+    --navshadow: rgba(199, 195, 195, 0.8);
+    --text-primary: black;
+    --text-secondary: royalblue;
+    --text-tertiary: rgb(182, 180, 83);
+    --accent: purple;
+    --transparent:  rgba(255, 255, 255, 0.048);
+}
+[data-theme='dark'] {
+    --background: rgb(20, 20, 20);
+    --navbackground: rgb(24, 24, 26);
+    --navshadow: rgba(83, 81, 81, 0.8);
+    --text-primary: white;
+    --text-secondary: grey;
+    --text-tertiary: rgb(55, 55, 56);
+    --accent: darkred;
+  }

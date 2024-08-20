@@ -1,0 +1,31 @@
+.nav-container{
+    border: 1px solid greenyellow;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    height: 70px;
+}
+
+.nav-element-container {
+
+}
+
+.NavButtonActual {
+    color: var(--background);
+    background-color: var(--navbackground);
+    border: calc(0.2% * 1px) solid var(--accent);
+    border-radius: 50% 50% 50% 50%;
+    box-shadow: 5px 5px 10px 2px var(--navshadow);
+    height: calc(100% - 10px);
+    width: calc(100% - 10px);
+    position: relative;
+    top: calc(50% - ((100% - 10px)/2));
+    left: calc(50% - ((100% - 10px)/2));
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
